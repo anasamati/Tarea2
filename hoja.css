@@ -9,21 +9,21 @@ margin-left:25px;
 margin-top:10px;
 }
 
-#name
+.nombre
 {
 font-size:200%;
 }
-#position
+.position
 {
 color:blue;
 }
-#dep
+.dep
 {
 color:green;
 font-size:80%;
 font-weight:bold;
 }
-#comp
+.comp
 {
 font-size:75%;
 font-style:italic;
@@ -48,7 +48,8 @@ float:left;
 
 #smiley
 {
-width:120px;height:120px;
+width:120px;
+height:120px;
 }
 
 #information
@@ -59,9 +60,21 @@ margin-left:40px;
 #contacto
 {
 margin-top:40px;
+margin-left:50px
 }
 
-#mail ,#phone, #fax, #adress, #facebook
+.small
 {
 width:20px;height:20px;margin-right:20px;
+}
+
+.left
+{
+float:left;
+margin-left:30px;
+}
+
+.right
+{
+float:right;
 }

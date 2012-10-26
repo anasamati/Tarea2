@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
 <head>
 	<link rel="stylesheet" type="text/css" href="hoja.css" />
 	<title>Tarea 2</title>
@@ -10,7 +12,7 @@
 
 
 <div id="menu">
-	<img id="img" src="imagenes/uma.gif">
+	<img id="img" src="imagenes/uma.gif" alt="uma" />
 	<ul>
 		<li><a href="http://www.uma.es">Home page</a></li>
 		<li>Company</li>
@@ -20,36 +22,37 @@
 </div>
 
 <div id="content">
-	<div id="information" style="float:left">
-		<name id="name">My Name</name><br/>
-		<name id="position">My position</name><br/><br/>
-		<name id="dep">My department</name><br/>
-		<name id="comp">My company</name><br/>
+	<div class="left">
+		<span class="nombre">My Name</span><br/>
+		<span class="position">My position</span><br/><br/>
+		<span class="dep">My department</span><br/>
+		<span class="comp">My company</span><br/>
 	</div>
-	<div id="smiley" style="float:right">
-		<img src="imagenes/smiley.jpg" style="float:center;">
+	<div id="smiley" class="right">
+		<img src="imagenes/smiley.jpg" style="float:center;" alt="foto" />
 	</div>
 	
+	
 	<hr width="300px"></hr>
-  <table id="contacto" style="margin-left:50px">
+  <table id="contacto">
     <tr>
-	<td><img src="imagenes/mail.jpg" id="mail"></td>
-	<td><a href="anasamati@yahoo.com">anasamati@yahoo.com</a></td>
+	<td><img src="imagenes/mail.jpg" class="small" alt="mail" /></td>
+	<td><a href="mailto:anasamati@yahoo.com" title="Enviar email a Anas Karmoun">anasamati@yahoo.com</a></td>
 	</tr>
 	<tr>
-	<td><img src="imagenes/phone.jpg" id="phone"></td>
+	<td><img src="imagenes/phone.jpg" class="small" alt="phone" /></td>
 	<td>(+34)657-522-655</td>
 	</tr>
 	<tr>
-	<td><img src="imagenes/fax.jpg" id="fax"></td>
+	<td><img src="imagenes/fax.jpg" class="small" alt="fax" /></td>
 	<td>(+34)953-768-765</td>
 	</tr>
 	<tr>
-	<td><img src="imagenes/adress.jpg" id="adress"></td>
+	<td><img src="imagenes/adress.jpg" class="small" alt="dirección" /></td>
 	<td>C/ Rio alcarrache Malaga</td>
 	</tr>
 	<tr>
-	<td><img src="imagenes/facebook.jpg" id="facebook"></td>
+	<td><img src="imagenes/facebook.jpg" class="small" alt="facebook" /></td>
 	<td><a href="http://www.facebook.com/riatec">My facebook Page</a></td>
 	</tr>
   </table>
